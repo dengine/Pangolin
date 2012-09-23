@@ -1,0 +1,5 @@
+/cache
+/composer.lock
+/config/database.json
+/tools/migrations/version.lock
+/vendor

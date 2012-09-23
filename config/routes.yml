@@ -1,0 +1,14 @@
+home_page:
+  pattern: /
+  defaults: { _controller: Default::index }
+
+name_page:
+  pattern: /{name}
+  defaults: { _controller: Default::show }
+
+user_show:
+  pattern: /user/{id}
+  defaults: { _controller: Default::user }
+  requirements:
+    page: [\d]+
+    
