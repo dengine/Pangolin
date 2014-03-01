@@ -5,6 +5,10 @@ use Pangolin\Controller;
 use Pangolin\Request;
 use Pangolin\NotFoundException;
 
+/**
+ * Class DefaultController
+ * @package Controllers
+ */
 class DefaultController extends Controller
 {
 
